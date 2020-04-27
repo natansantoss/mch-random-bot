@@ -10,6 +10,11 @@ module.exports = async (...args) => {
     lastRound,
   })
 
+  console.debug({
+    process,
+    console,
+  })
+
   return {
     target: enemy._id,
     actions: [
