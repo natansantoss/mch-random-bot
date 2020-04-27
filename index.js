@@ -1,7 +1,9 @@
-module.exports = async ({ me, myTeam, enemies, lastRound }) => {
+module.exports = async (...args) => {
+  const { me, myTeam, enemies, lastRound } = args
   const enemy = enemies.pop()
 
   console.debug({
+    args,
     me,
     myTeam,
     enemies,
