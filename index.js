@@ -1,6 +1,6 @@
 const brain = require('./src/dummy')
 
-module.exports = async (args) => {
+module.exports = async () => {
   const { me, myTeam, enemies, lastRound } = args
 
   console.debug({
