@@ -7,7 +7,6 @@ module.exports = async (args) => {
     args,
     me,
     myTeam,
-    enemies,
     lastRound,
   })
 
